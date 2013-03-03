@@ -5,9 +5,9 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  username: myapp
-  password: password # from psql setup, see Postgresql
-  database: myapp_development
+  username: nvtkjwtdofuliw
+  password: JaX7udBEfzSVAyCcL2JbhXKorQ # from psql setup, see Postgresql
+  database: dbldqqcng46mn1
 
 
 # Warning: The database defined as "test" will be erased and
@@ -15,12 +15,12 @@ development:
 # Do not set this db to the same as development or production.
 test:
   adapter: postgresql
-  username: myapp
-  password: password # from psql setup, see Postgresql
-  database: myapp_test
+  username: nvtkjwtdofuliw
+  password: JaX7udBEfzSVAyCcL2JbhXKorQ # from psql setup, see Postgresql
+  database: dbldqqcng46mn1
 
 production:
   adapter: postgresql
-  username: myapp
-  password: password # from psql setup, see Postgresql
-  database: myapp_production
+  username: nvtkjwtdofuliw
+  password: JaX7udBEfzSVAyCcL2JbhXKorQ # from psql setup, see Postgresql
+  database: dbldqqcng46mn1
