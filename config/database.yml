@@ -7,7 +7,7 @@ development:
   adapter: postgresql
   username: omuquvjavbcurc
   password: s84dvVIweafXKnwbFdvKQW_C7K # from psql setup, see Postgresql
-  database: dfimsusmoam2sd
+  database: immense-plains-6096 :: cyan
 
 
 # Warning: The database defined as "test" will be erased and
@@ -17,10 +17,10 @@ test:
   adapter: postgresql
   username: omuquvjavbcurc
   password: s84dvVIweafXKnwbFdvKQW_C7K # from psql setup, see Postgresql
-  database: dfimsusmoam2sd
+  database: immense-plains-6096 :: cyan
 
 production:
   adapter: postgresql
   username: omuquvjavbcurc
   password: s84dvVIweafXKnwbFdvKQW_C7K # from psql setup, see Postgresql
-  database: dfimsusmoam2sd
+  database: immense-plains-6096 :: cyan
