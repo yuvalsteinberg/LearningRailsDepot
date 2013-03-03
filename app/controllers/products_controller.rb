@@ -11,6 +11,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    puts "XXXX"
 
     respond_to do |format|
       format.html # index.html.erb
@@ -21,6 +22,7 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.json
   def show
+    puts "XVXCVXCV"
     @product = Product.find(params[:id])
 
     respond_to do |format|
