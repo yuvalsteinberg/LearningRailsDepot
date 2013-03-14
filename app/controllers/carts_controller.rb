@@ -1,3 +1,4 @@
+# A change just for test
 class CartsController < ApplicationController
   # GET /carts
   # GET /carts.json
