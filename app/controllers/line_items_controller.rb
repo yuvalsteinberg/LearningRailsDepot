@@ -44,7 +44,7 @@ class LineItemsController < ApplicationController
     product = Product.find(params[:product_id])
     # ORIGINAL LINE FOR ALWAYS CREATING A LINE ITEM: @line_item = @cart.line_items.build(product: product)
     @line_item = @cart.add_product(product.id)
-    ######@line_item.price = product.price
+    @line_item.price = product.price
 
     respond_to do |format|
       if @line_item.save
