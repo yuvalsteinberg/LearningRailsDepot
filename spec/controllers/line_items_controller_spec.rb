@@ -6,8 +6,6 @@ describe LineItemsController do
     @line_item = FactoryGirl.create(:line_item)
   end
 
-
-
   describe 'demo tests' do
     it "should get index" do
       get :index
@@ -22,7 +20,7 @@ describe LineItemsController do
     end
 
     it "should create line_item" do
-      product = FactoryGirl.create(:product)
+      product = FactoryGirl.create(:product, title: "LineItemsControllerTest")
       post :create, product_id: product.id
 
       assigns(:line_item).should_not be_nil
