@@ -3,6 +3,8 @@ class CartsController < ApplicationController
   # GET /carts
   # GET /carts.json
   def index
+    puts "XXX rrrrrrrrrrrrr"
+
     @carts = Cart.all
 
     respond_to do |format|
