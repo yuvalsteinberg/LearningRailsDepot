@@ -35,7 +35,7 @@ describe LineItemsController do
 
     it "should get edit" do
       get :edit, id: @line_item
-      response.should_not be_success
+      response.should be_success
     end
   end
 
