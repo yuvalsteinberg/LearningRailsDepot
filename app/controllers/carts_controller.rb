@@ -3,7 +3,7 @@ class CartsController < ApplicationController
   # GET /carts
   # GET /carts.json
   def index
-    puts "XXX rrrrrrrrrrrrr dewdfewcddsxwedc fuckdddd"
+    puts "XXX rrrrrrrrrrrrr dewdfewcddsxwedc fuck"
 
     @carts = Cart.all
 
