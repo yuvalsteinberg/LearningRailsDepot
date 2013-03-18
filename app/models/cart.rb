@@ -11,6 +11,7 @@ class Cart < ActiveRecord::Base
   end
 
   def total_price
+    Time.now
     line_items.to_a.sum { |item| item.total_price}
   end
 
