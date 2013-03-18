@@ -16,7 +16,7 @@ describe LineItemsController do
 
     it "should get new" do
       get :new
-      response.should_not be_success
+      response.should be_success
     end
 
     it "should create line_item" do
