@@ -16,7 +16,7 @@ describe CartsController do
       get :index
 
       assigns(:carts).should_not be_nil
-      response.should_not be_success
+      response.should be_success
     end
 
     it "should get index" do
