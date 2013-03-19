@@ -12,6 +12,13 @@ describe CartsController do
     end
 
 
+    it "should get index", :test_failure => true do
+      get :index
+
+      assigns(:carts).should_not be_nil
+      response.should_not be_success
+    end
+
     it "should get index" do
       get :index
 
