@@ -19,7 +19,7 @@ describe CartsController do
       response.should_not be_success
     end
 
-    it "should get index" do
+    it "should get index", :slow=>true do
       get :index
 
       assigns(:carts).should_not be_nil
