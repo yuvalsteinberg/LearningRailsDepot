@@ -65,7 +65,7 @@ class JUnit < RSpec::Core::Formatters::BaseFormatter
       test_name = "#{current_example_group[:description]}." + test_name
       current_example_group = current_example_group[:example_group]
     end
-    test_name << example.metadata[:description]
+    test_name << example.metadata[:description] unless example.metadata[:description].nil?
   end
 
   def dump_summary duration, example_count, failure_count, pending_count
