@@ -24,7 +24,6 @@ describe CartsController do
 
       assigns(:carts).should_not be_nil
       response.should be_success
-      true.should be_true
     end
 
     it "should get new" do
